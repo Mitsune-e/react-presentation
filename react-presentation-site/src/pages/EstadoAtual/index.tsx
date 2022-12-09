@@ -1,8 +1,8 @@
 import React from "react";
 import { Box } from "../../components";
 
-export const Home: React.FC = () => {
-  const textoHome = [
+export const EstadoAtual: React.FC = () => {
+  const textoEstado = [
     {
       title: "batatinha",
       body: "aaaaa"
@@ -18,7 +18,7 @@ export const Home: React.FC = () => {
   ];
   return (
     <>
-      {textoHome.map((x, i) => {
+      {textoEstado.map((x, i) => {
         return (
           <Box title={x.title} key={i}>
             {x.body}

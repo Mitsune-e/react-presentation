@@ -1,6 +1,6 @@
 import React from "react"
 
-import { Home } from "../pages"
+import { ComoIniciar, EstadoAtual, Home, Listagem } from "../pages"
 
 import { Route, Routes } from 'react-router-dom';
 import { PageWrapper, PageWrapperContent } from "./styles";
@@ -13,7 +13,10 @@ export const Router: React.FC = () => {
         <Navbar />
         <PageWrapperContent>
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path={"/"} element={<Home />} />
+            <Route path={"/listagem"} element={<Listagem />} />
+            <Route path={"/estadoAtual"} element={<EstadoAtual />} />
+            <Route path={"/comoIniciar"} element={<ComoIniciar />} />
           </Routes>
         </PageWrapperContent>
       </PageWrapper>
