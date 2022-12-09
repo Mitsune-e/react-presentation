@@ -12,8 +12,9 @@ export const Navbar: React.FC = () => (
           <div className="navbar-nav">
             <a className="nav-link" href="/">{"Home"}</a>
             <a className="nav-link" href="/listagem">{"Listagem"}</a>
-            <a className="nav-link" href="/estadoAtual">{"Estado Atual"}</a>
+            <a className="nav-link" href="/analise">{"Analise"}</a>
             <a className="nav-link" href="/comoIniciar">{"Como Iniciar"}</a>
+            <a className="nav-link" href="/bibliografia">{"Bibliografia"}</a>
           </div>
         </div>
       </div>

@@ -1,11 +1,11 @@
-import React from "react";
+import React, { ReactNode } from "react";
 
 interface IProps {
   img?: {
     src: string;
     alt: string;
   };
-  title?: string;
+  title?: ReactNode;
   text?: string;
 }
 

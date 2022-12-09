@@ -4,15 +4,14 @@ import { FaCheck, FaTimes } from 'react-icons/fa';
 
 export const Listagem: React.FC = () => {
   const pros = [
-    "a",
-    "b",
-    "c",
-    "d"
+    "Declarativo: O React faz com que a criação de UIs interativas seja uma tarefa fácil. Faça views simples para cada estado da aplicação e o React irá atualizar e renderizar de forma eficiente os componentes necessários à medida que os dados mudem.",
+    "Baseado em Componentes: Possibilidade de fazer componentes encapsulados que gerenciam seu próprio estado e então, combine-os para criar UIs complexas.",
+    "O React permite escrever um codigo universal que funciona em todas as plataformas."
   ];
 
   const cons = [
-    "e",
-    "f"
+    "Ocupa muita memoria por fazer uma copia completa do DOM.",
+    "Visto que o React é feito com JavaScript o usuario é obrigado a manter o JavaScript habilitado no navegador"
   ];
 
   return (

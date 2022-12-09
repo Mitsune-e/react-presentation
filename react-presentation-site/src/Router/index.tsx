@@ -1,6 +1,6 @@
 import React from "react"
 
-import { ComoIniciar, EstadoAtual, Home, Listagem } from "../pages"
+import { ComoIniciar, Analise, Home, Listagem, Bibliografia } from "../pages"
 
 import { Route, Routes } from 'react-router-dom';
 import { PageWrapper, PageWrapperContent } from "./styles";
@@ -15,8 +15,9 @@ export const Router: React.FC = () => {
           <Routes>
             <Route path={"/"} element={<Home />} />
             <Route path={"/listagem"} element={<Listagem />} />
-            <Route path={"/estadoAtual"} element={<EstadoAtual />} />
+            <Route path={"/analise"} element={<Analise />} />
             <Route path={"/comoIniciar"} element={<ComoIniciar />} />
+            <Route path={"/bibliografia"} element={<Bibliografia />} />
           </Routes>
         </PageWrapperContent>
       </PageWrapper>

@@ -1,4 +1,5 @@
 export * from "./ComoIniciar";
-export * from "./EstadoAtual";
+export * from "./Analise";
 export * from "./Home";
 export * from "./Listagem";
+export * from "./Bibliografia";
